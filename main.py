@@ -30,8 +30,6 @@ def main():
     AsteroidField.containers = (updatable)
     Shot.containers = (updatable, drawable, shots)
     
-
-
     asteroid_field = AsteroidField()
     player: pygame.sprite.Sprite = Player(SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2)
 
